@@ -1,0 +1,461 @@
+EESchema Schematic File Version 4
+LIBS:T962-Upgrade-Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "T962 Reflow Oven Upgrade"
+Date "2018-12-11"
+Rev "0.1"
+Comp "www.MarkFromSales.com"
+Comment1 "Thermocouple Amplifiers based on Adafruit MAX31856 Break-out"
+Comment2 "Oven Power Control based on 43203s TRIAC board"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L T962-Upgrade-Board-rescue:MOC3021-dk_Optoisolators-Triac-SCR-Output U5
+U 1 1 5C0E9710
+P 7250 2450
+F 0 "U5" H 7250 2812 60  0000 C CNN
+F 1 "MOC3021" H 7250 2706 60  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 7450 2650 60  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-99-0019/MOC302X%20series%20201606.pdf" V 7450 2750 60  0001 L CNN
+F 4 "160-1374-5-ND" H 7450 2850 60  0001 L CNN "160-2045-1-ND"
+F 5 "MOC3021S-TA1" H 7450 2950 60  0001 L CNN "MPN"
+F 6 "Isolators" H 7450 3050 60  0001 L CNN "Category"
+F 7 "Optoisolators - Triac, SCR Output" H 7450 3150 60  0001 L CNN "Family"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/MOC3021S-TA1/160-2045-1-ND/3711406" H 7450 3250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/MOC3021S-TA1/160-2045-1-ND/3711406" H 7450 3350 60  0001 L CNN "DK_Detail_Page"
+F 10 "OPTOISOLATOR 5KV TRIAC 6SMD" H 7450 3450 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 7450 3550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7450 3650 60  0001 L CNN "Status"
+	1    7250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L T962-Upgrade-Board-rescue:MOC3021-dk_Optoisolators-Triac-SCR-Output U4
+U 1 1 5C0E97C2
+P 7250 1200
+F 0 "U4" H 7250 1562 60  0000 C CNN
+F 1 "MOC3021" H 7250 1456 60  0000 C CNN
+F 2 "Package_DIP:SMDIP-6_W7.62mm" H 7450 1400 60  0001 L CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-99-0019/MOC302X%20series%20201606.pdf" V 7450 1500 60  0001 L CNN
+F 4 "160-2045-1-ND" H 7450 1600 60  0001 L CNN "Digi-Key_PN"
+F 5 "MOC3021S-TA1" H 7450 1700 60  0001 L CNN "MPN"
+F 6 "Isolators" H 7450 1800 60  0001 L CNN "Category"
+F 7 "Optoisolators - Triac, SCR Output" H 7450 1900 60  0001 L CNN "Family"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/MOC3021S-TA1/160-2045-1-ND/3711406" H 7450 2000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/lite-on-inc/MOC3021S-TA1/160-2045-1-ND/3711406" H 7450 2100 60  0001 L CNN "DK_Detail_Page"
+F 10 "OPTOISOLATOR 5KV TRIAC 6SMD" H 7450 2200 60  0001 L CNN "Description"
+F 11 "Lite-On Inc." H 7450 2300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7450 2400 60  0001 L CNN "Status"
+	1    7250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Triac_Thyristor:BT139-600 Q2
+U 1 1 5C0E9877
+P 8350 2600
+F 0 "Q2" H 8479 2646 50  0000 L CNN
+F 1 "BT139-600" H 8479 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8550 2525 50  0001 L CIN
+F 3 "https://www.rapidonline.com/pdf/47-3240.pdf" H 8350 2600 50  0001 L CNN
+F 4 "https://www.digikey.com/products/en?keywords=BT139-600E%2C127" H 8350 2600 50  0001 C CNN "Digi-Key"
+	1    8350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Triac_Thyristor:BT139-600 Q1
+U 1 1 5C0E98CD
+P 8350 1350
+F 0 "Q1" H 8479 1396 50  0000 L CNN
+F 1 "BT139-600" H 8479 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8550 1275 50  0001 L CIN
+F 3 "https://www.rapidonline.com/pdf/47-3240.pdf" H 8350 1350 50  0001 L CNN
+F 4 "https://www.digikey.com/products/en?keywords=BT139-600E%2C127" H 8350 1350 50  0001 C CNN "Digi-Key"
+	1    8350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5C0E9FB7
+P 7100 3950
+F 0 "H5" H 7200 4001 50  0000 L CNN
+F 1 "MountingHole" H 7200 3910 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad" H 7100 3950 50  0001 C CNN
+F 3 "~" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5C0EA03B
+P 7400 3950
+F 0 "H6" H 7500 4001 50  0000 L CNN
+F 1 "MountingHole" H 7500 3910 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad" H 7400 3950 50  0001 C CNN
+F 3 "~" H 7400 3950 50  0001 C CNN
+	1    7400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5C0EA077
+P 7700 3950
+F 0 "H7" H 7800 4001 50  0000 L CNN
+F 1 "MountingHole" H 7800 3910 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad" H 7700 3950 50  0001 C CNN
+F 3 "~" H 7700 3950 50  0001 C CNN
+	1    7700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5C0EA0A7
+P 10550 1500
+F 0 "H8" H 10650 1551 50  0000 L CNN
+F 1 "MountingHole" H 10650 1460 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.7mm_Pad" H 10550 1500 50  0001 C CNN
+F 3 "~" H 10550 1500 50  0001 C CNN
+	1    10550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5C0EB15F
+P 9000 1200
+F 0 "C14" H 9115 1246 50  0000 L CNN
+F 1 "0.1u" H 9115 1155 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 9038 1050 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=ECW-F6104JL" H 9000 1200 50  0001 C CNN
+	1    9000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5C0EB205
+P 7750 2200
+F 0 "R14" V 7543 2200 50  0000 C CNN
+F 1 "300" V 7634 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 7680 2200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/3521300RFT/A116019CT-ND/4280063" H 7750 2200 50  0001 C CNN
+	1    7750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5C0EB342
+P 9000 2850
+F 0 "R17" H 9070 2896 50  0000 L CNN
+F 1 "300" H 9070 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 8930 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/3521300RFT/A116019CT-ND/4280063" H 9000 2850 50  0001 C CNN
+	1    9000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5C0EB384
+P 7750 950
+F 0 "R13" V 7543 950 50  0000 C CNN
+F 1 "300" V 7634 950 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 7680 950 50  0001 C CNN
+F 3 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 7750 950 50  0001 C CNN
+	1    7750 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5C0EB3D0
+P 9000 1600
+F 0 "R16" H 9070 1646 50  0000 L CNN
+F 1 "300" H 9070 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 8930 1600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/3521300RFT/A116019CT-ND/4280063" H 9000 1600 50  0001 C CNN
+	1    9000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5C0EB702
+P 8100 2200
+F 0 "R15" V 7893 2200 50  0000 C CNN
+F 1 "2.4k" V 7984 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 8030 2200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/35212K4FT/A116041CT-ND/4279735" H 8100 2200 50  0001 C CNN
+F 4 "Not sure if correct W" H 8100 2200 50  0001 C CNN "Comment"
+	1    8100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:DIAC D7
+U 1 1 5C0EBA09
+P 7900 1450
+F 0 "D7" H 7900 1200 50  0000 C CNN
+F 1 "DIAC" H 7900 1300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 7900 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/stmicroelectronics/DB3/497-3099-1-ND/634623" H 7900 1450 50  0001 C CNN
+	1    7900 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 2350 7550 2200
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5C0EF69E
+P 9650 2200
+F 0 "J6" H 9729 2192 50  0000 L CNN
+F 1 "OVEN_LMP_PWR" H 9729 2101 50  0000 L CNN
+F 2 "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical" H 9650 2200 50  0001 C CNN
+F 3 "~" H 9650 2200 50  0001 C CNN
+	1    9650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5C0EF790
+P 10800 2050
+F 0 "J8" H 10800 2400 50  0000 L CNN
+F 1 "110VAC_IN" H 10650 2300 50  0000 L CNN
+F 2 "Connector_JST:JST_VH_B3P-VH-B_1x03_P3.96mm_Vertical" H 10800 2050 50  0001 C CNN
+F 3 "~" H 10800 2050 50  0001 C CNN
+	1    10800 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 2450
+NoConn ~ 7550 1200
+Wire Wire Line
+	7550 2700 8200 2700
+Wire Wire Line
+	7550 2550 7550 2700
+Wire Wire Line
+	8250 2200 8350 2200
+Wire Wire Line
+	8350 2200 8350 2450
+Connection ~ 8350 2200
+Wire Wire Line
+	8350 2200 9000 2200
+Wire Wire Line
+	9000 2200 9000 2300
+Wire Wire Line
+	9000 2200 9450 2200
+Connection ~ 9000 2200
+Wire Wire Line
+	7550 2200 7600 2200
+Wire Wire Line
+	7900 2200 7950 2200
+Wire Wire Line
+	7600 950  7550 950 
+Wire Wire Line
+	7550 950  7550 1100
+Wire Wire Line
+	7750 1450 7550 1450
+Wire Wire Line
+	7550 1450 7550 1300
+Wire Wire Line
+	8050 1450 8200 1450
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5C0F2C3F
+P 9650 950
+F 0 "J5" H 9729 942 50  0000 L CNN
+F 1 "OVEN_FAN_PWR" H 9729 851 50  0000 L CNN
+F 2 "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical" H 9650 950 50  0001 C CNN
+F 3 "~" H 9650 950 50  0001 C CNN
+	1    9650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 950  8350 950 
+Wire Wire Line
+	9000 950  9000 1050
+Connection ~ 9000 950 
+Wire Wire Line
+	9000 950  9450 950 
+$Comp
+L Device:C C15
+U 1 1 5C0E9934
+P 9000 2450
+F 0 "C15" H 9115 2496 50  0000 L CNN
+F 1 "0.1u" H 9115 2405 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4" H 9038 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=ECW-F6104JL" H 9000 2450 50  0001 C CNN
+	1    9000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2600 9000 2700
+Wire Wire Line
+	9000 1350 9000 1450
+Wire Wire Line
+	9000 1750 9000 1850
+Wire Wire Line
+	8350 1850 9000 1850
+Wire Wire Line
+	8350 1500 8350 1850
+Wire Wire Line
+	8350 3100 9000 3100
+Wire Wire Line
+	8350 2750 8350 3100
+Wire Wire Line
+	9000 3000 9000 3100
+Wire Wire Line
+	9450 2300 9400 2300
+Wire Wire Line
+	9450 1050 9400 1050
+Text Notes 6350 700  0    50   ~ 0
+Oven (TRIAC) Power Control
+Wire Wire Line
+	8350 1200 8350 950 
+Connection ~ 8350 950 
+Wire Wire Line
+	8350 950  9000 950 
+$Comp
+L Mechanical:Heatsink HS2
+U 1 1 5C1151B8
+P 7800 2900
+F 0 "HS2" H 7942 3021 50  0000 L CNN
+F 1 "Heatsink" H 7942 2930 50  0000 L CNN
+F 2 "MarkFromSales:Heatsink_TO-220_ATS-PCB1070" H 7812 2900 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=ATS-PCB1070" H 7812 2900 50  0001 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5C11528A
+P 7800 1850
+F 0 "HS1" H 7942 1971 50  0000 L CNN
+F 1 "Heatsink" H 7942 1880 50  0000 L CNN
+F 2 "MarkFromSales:Heatsink_TO-220_7-340-1PP-BA" H 7812 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/products/en?keywords=7-340-1PP-BA" H 7812 1850 50  0001 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6250 550  11150 550 
+Wire Notes Line
+	6250 3200 11150 3200
+Wire Notes Line
+	6250 550  6250 3200
+Wire Notes Line
+	11150 550  11150 3200
+Wire Wire Line
+	9400 1050 9400 1350
+Wire Wire Line
+	10600 2050 10400 2050
+Wire Wire Line
+	9400 2300 9400 2550
+Wire Wire Line
+	9400 2550 10400 2550
+Wire Wire Line
+	10400 2550 10400 2050
+Connection ~ 9000 1850
+Wire Wire Line
+	10250 1350 10250 2050
+Wire Wire Line
+	10250 2050 10400 2050
+Wire Wire Line
+	9400 1350 10250 1350
+Connection ~ 10400 2050
+Wire Wire Line
+	10100 1850 10100 2150
+Wire Wire Line
+	10100 2150 10500 2150
+Wire Wire Line
+	9000 1850 10100 1850
+Wire Wire Line
+	9000 3100 10500 3100
+Wire Wire Line
+	10500 3100 10500 2150
+Connection ~ 9000 3100
+Connection ~ 10500 2150
+Wire Wire Line
+	10500 2150 10600 2150
+Wire Wire Line
+	10550 1950 10600 1950
+Wire Wire Line
+	10550 1600 10550 1650
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5C43B06B
+P 6450 1950
+F 0 "J1" H 6450 1600 50  0000 C CNN
+F 1 "Conn_Pnl" H 6450 2200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 6450 1950 50  0001 C CNN
+F 3 "~" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 2050 6700 2050
+Wire Wire Line
+	6700 2050 6700 2550
+Wire Wire Line
+	6700 2550 6950 2550
+Wire Wire Line
+	6650 1950 6800 1950
+Wire Wire Line
+	6800 1950 6800 2350
+Wire Wire Line
+	6800 2350 6950 2350
+Wire Wire Line
+	6650 1850 6800 1850
+Wire Wire Line
+	6800 1850 6800 1300
+Wire Wire Line
+	6800 1300 6950 1300
+Wire Wire Line
+	6650 1750 6700 1750
+Wire Wire Line
+	6700 1750 6700 1100
+Wire Wire Line
+	6700 1100 6950 1100
+$Comp
+L CE_VirtualSymbols:GND #PWR0101
+U 1 1 5C43F44E
+P 10400 1700
+F 0 "#PWR0101" H 10400 1450 50  0001 C CNN
+F 1 "GND" H 10405 1527 50  0000 C CNN
+F 2 "" H 10400 1700 50  0000 C CNN
+F 3 "" H 10400 1700 50  0000 C CNN
+	1    10400 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1650 10400 1650
+Wire Wire Line
+	10400 1650 10400 1700
+Connection ~ 10550 1650
+Wire Wire Line
+	10550 1650 10550 1950
+$Comp
+L CE_VirtualSymbols:GND #PWR0102
+U 1 1 5C441453
+P 7950 3850
+F 0 "#PWR0102" H 7950 3600 50  0001 C CNN
+F 1 "GND" H 7955 3677 50  0000 C CNN
+F 2 "" H 7950 3850 50  0000 C CNN
+F 3 "" H 7950 3850 50  0000 C CNN
+	1    7950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3750 7400 3750
+Wire Wire Line
+	7950 3750 7950 3850
+Wire Wire Line
+	7100 3750 7100 3850
+Wire Wire Line
+	7400 3850 7400 3750
+Connection ~ 7400 3750
+Wire Wire Line
+	7400 3750 7700 3750
+Wire Wire Line
+	7700 3850 7700 3750
+Connection ~ 7700 3750
+Wire Wire Line
+	7700 3750 7950 3750
+$EndSCHEMATC

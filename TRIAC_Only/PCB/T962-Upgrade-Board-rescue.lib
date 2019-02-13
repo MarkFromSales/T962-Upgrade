@@ -1,0 +1,121 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCP23017-E_SO-dk_Interface-I-O-Expanders
+#
+DEF MCP23017-E_SO-dk_Interface-I-O-Expanders U 0 40 Y Y 1 F N
+F0 "U" -100 750 60 H V C CNN
+F1 "MCP23017-E_SO-dk_Interface-I-O-Expanders" 100 -1100 60 V V L CNN
+F2 "digikey-footprints:SOIC-28_W7.5mm" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709" 200 300 60 H I L CNN
+F4 "MCP23017-E/SO-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP23017-E/SO" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - I/O Expanders" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en023709" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP23017-E-SO/MCP23017-E-SO-ND/894271" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC I/O EXPANDER I2C 16B 28SOIC" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 700 400 -1500 0 1 0 f
+X GPB0 1 -300 600 100 R 50 50 1 1 B
+X VSS 10 100 -1600 100 U 50 50 1 1 W
+X NC 11 500 0 100 L 50 50 1 1 N
+X SCK 12 -300 -1100 100 R 50 50 1 1 I
+X SDA 13 -300 -1000 100 R 50 50 1 1 B
+X NC 14 500 -100 100 L 50 50 1 1 N
+X A0 15 -300 -1200 100 R 50 50 1 1 I
+X A1 16 -300 -1300 100 R 50 50 1 1 I
+X A2 17 -300 -1400 100 R 50 50 1 1 I
+X ~RESET 18 500 400 100 L 50 50 1 1 O
+X INTB 19 500 300 100 L 50 50 1 1 O
+X GPB1 2 -300 500 100 R 50 50 1 1 B
+X INTA 20 500 200 100 L 50 50 1 1 O
+X GPA0 21 -300 -200 100 R 50 50 1 1 B
+X GPA1 22 -300 -300 100 R 50 50 1 1 B
+X GPA2 23 -300 -400 100 R 50 50 1 1 B
+X GPA3 24 -300 -500 100 R 50 50 1 1 B
+X GPA4 25 -300 -600 100 R 50 50 1 1 B
+X GPA5 26 -300 -700 100 R 50 50 1 1 B
+X GPA6 27 -300 -800 100 R 50 50 1 1 B
+X GPA7 28 -300 -900 100 R 50 50 1 1 B
+X GPB2 3 -300 400 100 R 50 50 1 1 B
+X GPB3 4 -300 300 100 R 50 50 1 1 B
+X GPB4 5 -300 200 100 R 50 50 1 1 B
+X GPB5 6 -300 100 100 R 50 50 1 1 B
+X GPB6 7 -300 0 100 R 50 50 1 1 B
+X GPB7 8 -300 -100 100 R 50 50 1 1 B
+X VDD 9 100 800 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# MOC3021-dk_Optoisolators-Triac-SCR-Output
+#
+DEF MOC3021-dk_Optoisolators-Triac-SCR-Output U 0 0 Y Y 1 F N
+F0 "U" 0 250 60 H V C CNN
+F1 "MOC3021-dk_Optoisolators-Triac-SCR-Output" 0 -300 60 H V C CNN
+F2 "digikey-footprints:DIP-6_W7.62mm" 200 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS-70-99-0019/MOC302X%20series%20201606.pdf" 200 300 60 V I L CNN
+F4 "160-1374-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MOC3021" 200 500 60 H I L CNN "MPN"
+F6 "Isolators" 200 600 60 H I L CNN "Category"
+F7 "Optoisolators - Triac, SCR Output" 200 700 60 H I L CNN "Family"
+F8 "http://optoelectronics.liteon.com/upload/download/DS-70-99-0019/MOC302X%20series%20201606.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/lite-on-inc/MOC3021/160-1374-5-ND/385844" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "OPTOISOLATOR 5KV TRIAC 6DIP" 200 1000 60 H I L CNN "Description"
+F11 "Lite-On Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -150 175 150 -200 0 1 0 f
+P 2 0 1 0 -75 -25 -25 -25 N
+P 2 0 1 0 75 -25 125 -25 N
+P 2 0 1 0 75 25 25 25 N
+P 3 0 1 0 75 -25 75 -100 150 -100 N
+P 3 0 1 0 150 100 75 100 75 25 N
+P 4 0 1 0 -150 100 -50 100 -50 -100 -150 -100 N
+P 4 0 1 0 -75 25 -50 -25 -25 25 -75 25 F
+P 4 0 1 0 25 -25 50 25 75 -25 25 -25 F
+P 4 0 1 0 75 25 100 -25 125 25 75 25 F
+X ~ 1 -300 100 150 R 50 50 1 1 P
+X ~ 2 -300 -100 150 R 50 50 1 1 P
+X NC 3 0 -200 150 U 50 40 1 1 N N
+X ~ 4 300 -100 150 L 50 50 1 1 P
+X Sub 5 300 0 150 L 50 35 1 1 P
+X ~ 6 300 100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Thermo_31856-Adafruit-based_Custom
+#
+DEF Thermo_31856-Adafruit-based_Custom U 0 40 Y Y 1 F N
+F0 "U" 400 1300 50 H V C CNN
+F1 "Thermo_31856-Adafruit-based_Custom" 300 -100 50 H V C CNN
+F2 "" -50 -650 50 H I C CNN
+F3 "" -50 -650 50 H I C CNN
+DRAW
+T 0 350 1150 50 0 0 0 MAX31856 Normal 0 C C
+T 0 400 50 50 0 0 0 "Temp: -55..125C" Normal 0 C C
+T 0 350 1050 50 0 0 0 Thermo-Digital Normal 0 C C
+T 0 350 150 50 0 0 0 "VDD: 3-3.6V" Normal 0 C C
+S 0 0 750 200 0 0 0 N
+S 0 1200 750 1000 0 0 0 N
+S 0 0 750 1200 0 1 0 N
+X AGND 1 -100 900 100 R 50 50 1 1 I
+X SCK 10 850 500 100 L 50 50 1 1 O
+X SD0 11 850 600 100 L 50 50 1 1 O
+X SDI 12 850 700 100 L 50 50 1 1 O
+X FAULT 13 850 800 100 L 50 50 1 1 O
+X DGND 14 850 900 100 L 50 50 1 1 I
+X BIAS 2 -100 800 100 R 50 50 1 1 I
+X T- 3 -100 700 100 R 50 50 1 1 I
+X T+ 4 -100 600 100 R 50 50 1 1 I
+X AVDD 5 -100 500 100 R 50 50 1 1 W
+X DNC 6 -100 400 100 R 50 50 1 1 N
+X DRDY 7 -100 300 100 R 50 50 1 1 O
+X DVDD 8 850 300 100 L 50 50 1 1 I
+X CS 9 850 400 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
