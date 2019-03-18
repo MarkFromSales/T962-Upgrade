@@ -1,0 +1,10 @@
+﻿Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Packaging,Part Status,Quantity,Unit Price,Extended Price,Description
+MOC3021S-TA1,Lite-On Inc.,160-2045-1-ND,"U4, U5",Cut Tape (CT),Active,2,0.64,$1.28 ,OPTOISOLATOR 5KV TRIAC 6SMD
+RMCF2512JT2K40,Stackpole Electronics Inc,RMCF2512JT2K40CT-ND,R15,Cut Tape (CT),Active,1,0.3,$0.30 ,RES 2.4K OHM 5% 1W 2512
+RMCF2512FT300R,Stackpole Electronics Inc,RMCF2512FT300RCT-ND,"R13, R14, R16, R17",Cut Tape (CT),Active,4,0.38,$1.52 ,RES 300 OHM 1% 1W 2512
+DB3,STMicroelectronics,497-3099-1-ND,D7,Cut Tape (CT),Active,1,0.4,$0.40 ,DIAC 28-36V 2A DO35
+7-340-1PP-BA,CTS Thermal Management Products,294-1034-ND,HS1,Box,Active,1,2.69,$2.69 ,HEATSINK PWR VERT BLACK TO-220
+"BT139-600E,127",WeEn Semiconductors,1740-1049-ND,"Q1, Q2",Tube,Active,2,0.87,$1.74 ,TRIAC SENS GATE 600V 16A TO220AB
+577102B00000G,"Aavid, Thermal Division of Boyd Corporation",HS106-ND,HS2,Bag,Active,1,0.66,$0.66 ,"HEAT SINK TO-220 .375"" COMPACT"
+B32641B0103J,EPCOS (TDK),495-7120-ND,C14,Bulk,Active,1,0.75,$0.75 ,CAP FILM 10000PF 5% 1KVDC RADIAL
+104MKP275KD,Illinois Capacitor,1572-1007-ND,C15,Bulk,Active,1,0.53,$0.53 ,CAP FILM 0.1UF 10% 310VAC RADIAL
